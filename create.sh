@@ -9,7 +9,7 @@ if [ $yesorno = 'Y' ]
 then
     clear
     figlet creating...
-    echo '\e[0;31m[\e[0;32m*\e[31m]\e[0;37mStarting...'
+    echo -p '\e[0;31m[\e[0;32m*\e[31m]\e[0;37mStarting...'
     sleep 5
     read -p 'IP-ADDRESS :' ip
     read -p 'Port       :' port
